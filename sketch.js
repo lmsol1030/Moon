@@ -48,13 +48,7 @@ var solar, bg, earth, moon;
          150); 
  
 
-  //달라인 
-  noFill(); 
-  ellipse(500 + Math.cos(timing1*2*PI)*300, 
-         500 + Math.sin(timing1*2*PI)*300, 
-         200, 
-         200); 
- 
+
 
   //태양 
     image(solar,250,250,500,500); 
