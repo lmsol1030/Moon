@@ -29,13 +29,11 @@ var solar, bg, earth, moon;
  
   //지구라인 
   noFill(); 
-  nostroke(); 
   ellipse(500,500,600,600) 
 
  
   //달타원라인1 
   noFill(); 
-  nostroke(); 
   ellipse(500 + Math.cos(timing1*2*PI)*300, 
          500 + Math.sin(timing1*2*PI)*300, 
          100, 
@@ -44,7 +42,6 @@ var solar, bg, earth, moon;
 
   //달타원라인2 
   noFill(); 
-  nostroke(); 
   ellipse(500 + Math.cos(timing1*2*PI)*300, 
          500 + Math.sin(timing1*2*PI)*300, 
          300, 
@@ -53,7 +50,6 @@ var solar, bg, earth, moon;
 
   //달라인 
   noFill(); 
-  nostroke(); 
   ellipse(500 + Math.cos(timing1*2*PI)*300, 
          500 + Math.sin(timing1*2*PI)*300, 
          200, 
