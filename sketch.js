@@ -29,7 +29,7 @@ var solar, bg, earth, moon;
  
   //지구라인 
   noFill(); 
-  ellipse(500,500,600,600) 
+  ellipse(300,300,300,300) 
 
  
   //달타원라인1 
